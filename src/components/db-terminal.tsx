@@ -87,7 +87,7 @@ export default function DbTerminal() {
   return (
     <Card className="w-full max-w-3xl mx-auto shadow-2xl h-[calc(100vh-4rem)] flex flex-col font-mono" onClick={focusInput}>
       <CardHeader>
-        <CardTitle className="text-primary">shivamdatebase name</CardTitle>
+        <CardTitle className="text-primary">Monarch Terminal</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow overflow-hidden p-0">
         <ScrollArea className="h-full p-4" ref={scrollAreaRef}>
